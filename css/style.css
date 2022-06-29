@@ -1,0 +1,459 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url("../images/bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 5px;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 47%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 47%;
+}
+
+.height {
+    min-height: 90vh;
+    align-items: center;
+}
+
+.height h5 {
+    color: rgb(0, 142, 214);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+}
+
+.height h1 {
+    color: rgb(255, 255, 255);
+    font-size: 47px;
+    font-family: 'Source Sans Pro';
+    margin: 20px 0px;
+}
+
+.height p {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    margin-bottom: 15px;
+}
+
+.btn-download {
+    background-color: rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    padding: 15px 20px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.btn-download:hover {
+    background-color: transparent;
+    color: rgb(153, 153, 153);
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.btn-feature {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid rgb(153, 153, 153);
+    padding: 15px 20px;
+    margin-left: 15px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro';
+    margin-top: 50px;
+}
+
+.btn-feature:hover {
+    background-color: rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 142, 214);
+}
+
+.phone-bg {
+    position: absolute;
+    bottom: 0px;
+    right: 10%;
+}
+
+.product-section {}
+
+.heading {
+    position: relative;
+}
+
+.heading h2::before {
+    content: "";
+    position: absolute;
+    left: 48%;
+    bottom: -5px;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.heading h2::after {
+    content: "";
+    position: absolute;
+    right: 48%;
+    bottom: -5px;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.heading h2:hover::before {
+    width: 30px;
+}
+
+.heading h2:hover::after {
+    width: 30px;
+}
+
+.product-section h5 {
+    color: rgb(0, 142, 214);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+}
+
+.product-section h2 {
+    color: rgb(26, 26, 26);
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+}
+
+.tv-icon {
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 50%;
+    line-height: 80px;
+    margin: auto auto 20px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.tv-icon:hover {
+    background-color: rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+}
+
+.tv-icon i {
+    color: rgb(0, 142, 214);
+    font-size: 30px;
+}
+
+.product-section h3 {
+    color: rgb(26, 26, 26);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Source Sans Pro';
+}
+
+.product-section p {
+    color: rgb(153, 153, 153);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.device-section {}
+
+.mobile {}
+
+.mobile img {}
+
+.device-section h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 142, 214);
+    margin: 15px 0px;
+    font-family: 'Source Sans Pro';
+    letter-spacing: 1px;
+}
+
+.device-section h1 {
+    font-family: 'Source Sans Pro';
+    color: rgb(26, 26, 26);
+    margin: 15px 0px;
+}
+
+.device-section p {
+    color: rgb(153, 153, 153);
+    margin: 15px 0px;
+    font-family: 'Source Sans Pro';
+}
+
+.device-section ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.device-section ul li {}
+
+.pic {}
+
+.pic p {
+    color: rgb(27, 27, 27);
+    font-weight: 500;
+    font-family: 'Source Sans Pro';
+}
+
+.pic p i {
+    color: rgb(0, 142, 214);
+    margin-right: 10px;
+}
+
+.customize-section {
+    background-color: rgb(242, 242, 242);
+}
+
+.customize-section h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 142, 214);
+    margin-top: 90px;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro';
+}
+
+.customize-section h1 {
+    color: rgb(26, 26, 26);
+    margin: 15px 0px;
+}
+
+.customize-section p {
+    color: rgb(153, 153, 153);
+    margin: 15px 0px;
+}
+
+.mobile-phone {}
+
+.mobile-phone img {}
+
+.customize {
+    position: relative;
+}
+
+.customize h1::before {
+    content: "";
+    position: absolute;
+    left: 2%;
+    top: 42%;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+    margin-top: 10px;
+}
+
+.customize h1::after {
+    content: "";
+    position: absolute;
+    right: 90%;
+    top: 42%;
+    width: 0%;
+    height: 3px;
+    margin-top: 10px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.customize h1:hover::before {
+    width: 23px;
+}
+
+.customize h1:hover::after {
+    width: 23px;
+}
+
+.customize h1 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+}
+
+.testimonial{
+    background-image: url(../images/carousal-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+.pricing {
+    position: relative;
+}
+
+.pricing h2::before {
+    content: '';
+    position: absolute;
+    left: 48%;
+    bottom: -5px;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.pricing h2::after {
+    content: '';
+    position: absolute;
+    right: 48%;
+    bottom: -5px;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.pricing h2:hover::before {
+    width: 30px;
+}
+
+.pricing h2:hover::after {
+    width: 30px;
+}
+
+
+.testimonial{
+   background-image: url(../images/carousal-bg.png); 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px 0;
+}
+
+.testimonial h5 {
+    color: rgb(0, 142, 214);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Source Sans Pro';
+    letter-spacing: 1px;
+}
+.testimonial h2{
+    color: #fff;
+    margin-top: 15px;
+    font-family: 'Source Sans Pro';
+}
+.testimonial p{
+    
+font-family: 'Source Sans Pro';
+    
+color: #fff;
+    
+font-style: italic;
+    
+font-size: 20px;
+    
+margin-bottom: 20px;
+}
+
+.client{
+
+display: flex;
+}
+.client-img{
+
+width: 70px;
+
+margin-right: 25px;
+
+height: 70px;
+
+border: 2px solid #b5a7a7;
+
+border-radius: 50%;
+
+overflow: hidden;
+}
+.client-profile{
+
+}
+.client-profile h4{
+
+color: #fff;
+
+font-size: 18px;
+
+margin-bottom: 5px;
+
+font-family: 'Source Sans Pro';
+}
+.client-profile h3{
+
+color: #fff;
+
+font-size: 12px;
+
+font-family: 'Source Sans Pro';
+}
+
+
